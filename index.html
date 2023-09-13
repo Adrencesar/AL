@@ -84,6 +84,8 @@
 
 
 
+   
+  
    <section class="carrossel">
     <h2 class="carrossel__titulo">Novos lançamentos</h2>
     <!-- Slider main container -->
@@ -130,25 +132,84 @@
         <lo class="botoes-item"><img src="./img/Compras.svg"></lo>
         </ul>
         <a href="#" class="botoes-ancora">Saiba mais</a>
+
+
+
     
-
-
-
-
-
-
     </div>
-</div>
+    </div>
 
 
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+        <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="./img/li.svg"></div>
+        <div class="swiper-slide"><img src="./img/Arquitetura.svg"></div>
+        <div class="swiper-slide"><img src="./img/UX.svg"></div>
+        <div class="swiper-slide"><img src="./img/Portugol.svg"></div>
+        <div class="swiper-slide"><img src=",/img/Tuning.svg"></div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 1</div>
+    
+    
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    
+    
+    <div class="card">
+        <div class="card-descricao">
+            <div class="descricao">
+                <h3 class="descricao-titulo">cantor do mes do ano 1088...</h3>
+                <h2 class="descricao-titulo-livro">cantor mais topp do Brisil</h2>
+                <p class="descricao">Prefiro mil vezes os nossos causos, nossas prosas, As nossas modas, O nosso jeito simples e bonito</p>
+    
+            </div>
+            <img src="./img/joaocarreiro.jpg" class="descricao-imagem">
+        </div>
+        <div class="card-botoes">
+            <ul class="botoes">
+            <lo class="botoes-item"><img src="./img/Favoritos.svg"></lo>
+            <lo class="botoes-item"><img src="./img/Compras.svg"></lo>
+            </ul>
+            <a href="#" class="botoes-ancora">Saiba mais</a>
+    
+    
+    
+        
+        </div>
+        </div>
+    
+    
+        </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+
+
 
 <script>
     const swiper = new Swiper('.swiper', {
   spaceBetween: 10,
-
+  slidesPerView: 3,
 });
+
+
+
 </script>
 
 
