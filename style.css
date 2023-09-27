@@ -170,6 +170,79 @@ body{
 .botoes-item{
     padding: 0.5em 0.5em;
 }
+.topicos{
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 2em 0;
+    margin: 2em;
+}
+
+.titulo-topicos{
+    color: #3bb316;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 2em;
+    margin: 6px;
+}
+.topicos-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .topicos-link{
+    color: #eeeeee;
+    padding: 2em;
+    background-color: var(--laranja);
+    font-size: 14px;
+    margin: 10px;
+    border-radius: 15px;
+ }
+
+ .rodape{
+    background-color: #1d2596;
+    padding: 2em;
+}
+
+.contato-titulo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.contato-texto{
+    font-size: 30px;
+    font-weight: 500;
+}
+.contato-email{
+    padding: 1em;
+    border-radius: 25px;
+    border: 5px solid var(--azul-degrade);
+    width: 40px;
+    color: #0f0f0f;
+    background-position: 1em;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    width:20%;
+    height: 16px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 

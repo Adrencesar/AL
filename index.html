@@ -187,7 +187,7 @@
             <lo class="botoes-item"><img src="./img/Favoritos.svg"></lo>
             <lo class="botoes-item"><img src="./img/Compras.svg"></lo>
             </ul>
-            <a href="#" class="botoes-ancora">Saiba mais</a>
+            <a href="https://www.youtube.com/watch?v=lGiTBm917JQ" class="botoes-ancora">Saiba mais</a>
     
     
     
@@ -197,6 +197,34 @@
     
     
         </section>
+
+        <section class="topicos">
+            <h2 class="titulo-topicos">Topicos Visitados Recentemente</h2>
+            <ul class="topicos-lista">
+                <lo> <a href="#" class="topicos-link">Android</a></lo>
+                <lo> <a href="#" class="topicos-link">Marketing Digital</a></lo>
+                <lo> <a href="#" class="topicos-link">00</a></lo>
+                <lo> <a href="#" class="topicos-link">Agille</a></lo>
+                <lo> <a href="#" class="topicos-link">Startups</a></lo>
+                <lo> <a href="#" class="topicos-link">HTML & css</a></lo>
+                <lo> <a href="#" class="topicos-link">Java</a></lo>
+                <lo> <a href="#" class="topicos-link">Py</a></lo>
+
+            </ul>
+        </section>
+
+        <section class="rodape">
+            <h2 class="contato-titulo"> Fique por dentro das novidades!</h2>
+            <h3 class="contato-texto"> Atualizações de e-books, novos livros, promoções e outros</h3>
+            <input type="email" placeholder="Cadastre seu email"
+            class="contato-email">
+        </section>
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
 
@@ -206,6 +234,11 @@
     const swiper = new Swiper('.swiper', {
   spaceBetween: 10,
   slidesPerView: 3,
+
+  pagination:{
+    el:'swiper-pagination',
+    type: 'bullets',
+  }
 });
 
 
